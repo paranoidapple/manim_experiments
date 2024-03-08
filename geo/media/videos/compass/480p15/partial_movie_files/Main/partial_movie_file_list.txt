@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/aiden/manim_test/geo/media/videos/compass/480p15/partial_movie_files/Main/1185818338_2611566933_1021304494.mp4'
-file 'file:/Users/aiden/manim_test/geo/media/videos/compass/480p15/partial_movie_files/Main/624642324_1704852926_2033806878.mp4'
-file 'file:/Users/aiden/manim_test/geo/media/videos/compass/480p15/partial_movie_files/Main/624642324_643650031_414116880.mp4'
-file 'file:/Users/aiden/manim_test/geo/media/videos/compass/480p15/partial_movie_files/Main/624642324_1964511696_1821014374.mp4'
-file 'file:/Users/aiden/manim_test/geo/media/videos/compass/480p15/partial_movie_files/Main/624642324_1612918279_3437417251.mp4'
