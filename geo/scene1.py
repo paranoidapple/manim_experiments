@@ -67,7 +67,13 @@ class Main(MovingCameraScene):
         ),
         self.wait(0.3)
         self.play(
-            Create(line2), Create(dotB), Create(textB), Create(dotP), Create(textP)
+            Create(line2),
+            Create(dotB),
+            Create(textB),
+            Create(dotP),
+            Create(textP),
+            Create(dotC),
+            Create(textC),
         )
         self.add_foreground_mobjects(dotA, dotB, dotP)
         self.play(Create(problem_text))
@@ -76,8 +82,6 @@ class Main(MovingCameraScene):
         self.play(
             Create(arcY),
             Create(arcX),
-            Create(textC),
-            Create(dotC),
             problem_text[4].animate.set_color(RED_E),
             problem_text[6].animate.set_color(RED_A),
             Create(angle1),
@@ -476,6 +480,6 @@ class Main(MovingCameraScene):
             arcX.animate.set_color(RED_E),
             final_equation[3][1].animate.set_color(RED_E),
             arcY.animate.set_color(RED_A),
-            final_equation[5][1].animate.set_color(RED_A)
+            final_equation[5][1].animate.set_color(RED_A),
         )
         self.wait(2)
